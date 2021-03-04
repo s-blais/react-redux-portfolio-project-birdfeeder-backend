@@ -6,4 +6,9 @@ class Api::V1::DaysController < ApplicationController
     render json: DaySerializer.new(days)
   end
 
+  def show
+    day = Day.find_by_id(params[:id])
+    render json: DaySerializer.new(day)
+  end
+
 end

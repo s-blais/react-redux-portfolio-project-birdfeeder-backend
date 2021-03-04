@@ -6,4 +6,9 @@ class Api::V1::BirdsController < ApplicationController
     render json: BirdSerializer.new(birds)
   end
 
+  def show
+    bird = Bird.find_by_id(params[:id])
+    render json: BirdSerializer.new(bird)
+  end
+
 end
