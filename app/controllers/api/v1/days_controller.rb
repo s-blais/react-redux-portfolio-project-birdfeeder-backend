@@ -11,4 +11,17 @@ class Api::V1::DaysController < ApplicationController
     render json: DaySerializer.new(day)
   end
 
+  def create
+    day = Day.new(day_params)
+    if day.save
+      render json: DaySerializer.new(day) #, status: :accepted ? 
+    # else error handling?
+  end
+
+  private
+
+  def day_params
+    params.require(:day).permit(:date)
+  end
+
 end
