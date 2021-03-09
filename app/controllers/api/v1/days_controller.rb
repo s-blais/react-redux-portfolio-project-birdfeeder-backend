@@ -16,6 +16,7 @@ class Api::V1::DaysController < ApplicationController
     if day.save
       render json: DaySerializer.new(day) #, status: :accepted ? 
     # else error handling?
+    end
   end
 
   private
