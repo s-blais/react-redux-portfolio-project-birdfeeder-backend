@@ -11,4 +11,18 @@ class Api::V1::BirdsController < ApplicationController
     render json: BirdSerializer.new(bird)
   end
 
+  def create
+    bird = Bird.new(bird_params)
+    if bird.save
+      render json: BirdSerializer.new(bird) #, status: :accepted ? 
+    # else error handling?
+    end
+  end
+
+  private
+
+  def bird_params
+    params.require(:bird).permit(:name, :audubon_url, :image_url)
+  end
+
 end
