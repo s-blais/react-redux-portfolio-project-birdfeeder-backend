@@ -34,7 +34,7 @@ dw = Bird.create(
 )
 
 cw = Bird.create(
-  name: "Caroline Wren",
+  name: "Carolina Wren",
   audubon_url: "https://www.audubon.org/field-guide/bird/carolina-wren",
   image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/4027_Sibl_9780307957900_art_r1.jpg"
 )
