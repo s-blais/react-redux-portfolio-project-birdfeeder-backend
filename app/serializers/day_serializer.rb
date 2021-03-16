@@ -8,7 +8,7 @@ class DaySerializer
   #   day.birds
   # end
   
-  attribute :birds_ids do |day|
+  attribute :bird_ids do |day|
     day.birds.map do |bird|
       bird.id
     end
