@@ -6,49 +6,49 @@ Bird.destroy_all
 tt = Bird.create(
   name: "Tufted Titmouse",
   audubon_url: "https://www.audubon.org/field-guide/bird/tufted-titmouse",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/4464_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/4464_Sibl_9780307957900_art_r1.jpg"
 )
 
 bcc = Bird.create(
   name: "Black-capped Chickadee",
   audubon_url: "https://www.audubon.org/field-guide/bird/black-capped-chickadee",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/4033_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/4033_Sibl_9780307957900_art_r1.jpg"
 )
 
 dej = Bird.create(
   name: "Dark-eyed Junco",
   audubon_url: "https://www.audubon.org/field-guide/bird/dark-eyed-junco",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/Dark_eyed_Junco_4741_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/Dark_eyed_Junco_4741_Sibl_9780307957900_art_r1.jpg"
 )
 
 rbw = Bird.create(
   name: "Red-bellied Woodpecker",
   audubon_url: "https://www.audubon.org/field-guide/bird/red-bellied-woodpecker",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/5162_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/5162_Sibl_9780307957900_art_r1.jpg"
 )
 
 dw = Bird.create(
   name: "Downy Woodpecker",
   audubon_url: "https://www.audubon.org/field-guide/bird/downy-woodpecker",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/5192_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/5192_Sibl_9780307957900_art_r1.jpg"
 )
 
 cw = Bird.create(
   name: "Carolina Wren",
   audubon_url: "https://www.audubon.org/field-guide/bird/carolina-wren",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/4027_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/4027_Sibl_9780307957900_art_r1.jpg"
 )
 
 ebb = Bird.create(
   name: "Eastern Bluebird",
   audubon_url: "https://www.audubon.org/field-guide/bird/eastern-bluebird",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/038_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/038_Sibl_9780307957900_art_r1.jpg"
 )
 
 md = Bird.create(
   name: "Mourning Dove",
   audubon_url: "https://www.audubon.org/field-guide/bird/mourning-dove",
-  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/2829_Sibl_9780307957900_art_r1.jpg"
+  image_url: "https://nas-national-prod.s3.amazonaws.com/styles/bird_illustration/s3/2829_Sibl_9780307957900_art_r1.jpg"
 )
 
 Day.destroy_all
