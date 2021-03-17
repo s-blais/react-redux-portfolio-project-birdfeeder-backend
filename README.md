@@ -12,6 +12,8 @@ To prevent the API unnecessarily transmitting redundant data, and bloating the R
 
 Credit to Audubon.org for having such an excellent bird information resource, and David Sibley's beautiful illustrations.
 
+As with other projects, for the sake of project MVP, I utilized [water.css](https://watercss.kognise.dev/) for quick, clean, frill-free styling.
+
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-birds-library-v1.png)
 
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-sightings-v1.png)
