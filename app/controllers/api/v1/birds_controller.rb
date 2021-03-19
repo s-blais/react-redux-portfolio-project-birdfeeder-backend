@@ -14,8 +14,9 @@ class Api::V1::BirdsController < ApplicationController
   def create
     bird = Bird.new(bird_params)
     if bird.save
-      render json: BirdSerializer.new(bird) #, status: :accepted ? 
-    # else error handling?
+      render json: BirdSerializer.new(bird), status: :accepted
+    else 
+      render json: {errors: bird.errors.full_messages}, status: :unprocessible_entity
     end
   end
 
