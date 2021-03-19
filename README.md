@@ -18,12 +18,18 @@ As with other projects, for the sake of project MVP, I utilized [water.css](http
 
 Cringeworthy walkthrough video available [here](https://youtu.be/2O_LzC-Nugk)
 
+Some screenshots:
+
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-home-v1.png)
+
 
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-birds-library-v2.png)
 
+
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-bird-new-form-v1.png)
 
+
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-day-sightings-v2.png)
+
 
 ![React-Redux Project screenshot](http://s-blais.com/assets/RR-project-day-new-form-v1.png)
