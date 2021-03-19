@@ -10,8 +10,4 @@ class DaySerializer
 
   # has_many :birds
   
-  # attribute :birds do |day|
-  #   day.birds
-  # end
-  
 end
