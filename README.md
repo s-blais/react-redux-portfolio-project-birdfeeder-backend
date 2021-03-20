@@ -6,7 +6,7 @@ This small app was inspired by my friends' fascination with the birdfeeder in th
 
 Developed on Ruby 2.6.1 and Rails 6.0.3.5, with PostgreSQL 12 database; frontend React 17.0.1 and Redux 4.0.5
 
-The backend schema consists of a Bird model, a Day model, and a join model of those two, Sighting (since multiple birds can be sighted on a day, and a bird can be sighted on multiple days, a reciprocal has-many-through relationship is indicated). 
+The backend schema consists of a *Bird* model, a *Day* model, and a join model of those two, *Sighting* (since multiple birds can be sighted on a day, and a bird can be sighted on multiple days, a reciprocal has-many-through relationship is indicated). 
 
 In the frontend, the Birds Library displays all the bird species that have been seen at the birdfeeder. Birds can be added to the library as needed. Days are recorded with a date and all birds that were seen on that date.
 
@@ -15,6 +15,8 @@ To prevent the API unnecessarily transmitting redundant data, and bloating the R
 Credit to Audubon.org for having such an excellent bird information resource, and David Sibley's beautiful illustrations.
 
 As with other projects, for the sake of project MVP, I utilized [water.css](https://watercss.kognise.dev/) for quick, clean, frill-free styling, and added some style declarations as my own as needed.
+
+Oh yes, I can think of a hundred ways to enhance and embellish and extend this app beyond the requirements for the project – I can't guarantee that this repository won't quietly evolve as my urges to tinker get the best of me!
 
 Cringeworthy walkthrough video available [here](https://youtu.be/2O_LzC-Nugk)
 
