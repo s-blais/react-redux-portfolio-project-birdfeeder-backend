@@ -4,7 +4,7 @@ This is the backend for my React/Redux project to fulfill requirements for my Fl
 
 This small app was inspired by my friends' fascination with the birdfeeder in their yard. This app functions as a bird-sighting journal, tracking which birds are seen visiting the birdfeeder, by date.
 
-Developed on Ruby 2.6.1 and Rails 6.0.3.5, with PostgreSQL 12 database; frontend React 17.0.1 and Redux 4.0.5
+Developed on Ruby 2.6.1 and Rails 6.0.3.5, with PostgreSQL 12 database; [frontend](https://github.com/s-blais/react-redux-portfolio-project-birdfeeder-frontend) React 17.0.1 and Redux 4.0.5
 
 The backend schema consists of a *Bird* model, a *Day* model, and a join model of those two, *Sighting* (since multiple birds can be sighted on a day, and a bird can be sighted on multiple days, a reciprocal has-many-through relationship is indicated). 
 
